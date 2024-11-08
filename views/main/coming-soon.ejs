@@ -1,0 +1,33 @@
+ <!-- Wrapper Starts -->
+ <div class="wrapper">
+    <div class="container-fluid error">
+        <div>
+            <div class="text-center">
+                <!-- Logo Starts -->
+                <a class="logo" href="/">
+                    <img class="img-responsive" src="/images/logo.jpg" alt="logo" style="height: 8rem; ">
+                </a>
+                <!-- Logo Ends -->
+                <!-- Coming Soon Content Starts -->
+                <h3 class="coming-soon-title">our new website is coming soon !</h3>
+                <p>we're making new awesome features! we will be online in just :</p>
+                <div class="countdown" id="countdown"></div>
+                <!-- Coming Soon Content Ends -->
+            </div>
+        </div>
+    </div>
+    <!-- Template JS Files -->
+    <script src="/js/jquery-2.2.4.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/select2.min.js"></script>
+    <script src="/js/jquery.plugin.min.js"></script>
+    <script src="/js/jquery.countdown.min.js"></script>
+    <script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/custom.js"></script>
+    <script>
+        $(function () {
+            $('#countdown').countdown({ until: new Date(2025, 6 - 1, 25) });
+        });
+    </script>
+</div>
+<!-- Wrapper Ends -->
